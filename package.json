@@ -1,0 +1,25 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "\"this is a test directory to learn git and node\"",
+  "main": "index.html",
+  "scripts": {
+    "start": " npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahern82/git-test.git"
+  },
+  "author": "brian ahern",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bahern82/git-test/issues"
+  },
+  "homepage": "https://github.com/bahern82/git-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0",
+    "liteserver": "^0.3.0"
+  }
+}
